@@ -1,0 +1,35 @@
+header {
+    margin-bottom: 25px;
+    background-color: rgb(255, 208, 0);
+    height: 100px;
+    text-align: center;
+    padding-top: 25px
+}
+
+body {
+    max-width: 85%;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    max-width: 33%;
+}
+
+img {
+    height: 200px;
+}
+
+#user-choices {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    border: solid 3px black;
+    margin-bottom: 10px;
+}
+
+button {
+    float: right;
+}
