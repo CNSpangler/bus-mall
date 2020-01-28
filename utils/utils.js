@@ -16,6 +16,7 @@ export function getItemById(someId) {
 }
 
 export function getRandomItem() {
-    const randomItemIndex = Math.floor(Math.random() * originalItemsArray.length);
+    const newItemsArray = originalItemsArray.slice();
+    const randomItemIndex = Math.floor(Math.random() * newItemsArray.length);
     return originalItemsArray[randomItemIndex];
 }
