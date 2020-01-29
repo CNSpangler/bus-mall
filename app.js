@@ -91,7 +91,7 @@ form.addEventListener('submit', (e) => {
         localStorage.setItem('BusMall Results', JSON.stringify(resultsArray));
 
         if (clicksLeft === 0) {
-            window.location = '../results/index.html';
+            window.location = './results/index.html';
             return clicksLeft;
         }
     }

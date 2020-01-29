@@ -1,13 +1,13 @@
 const results = localStorage.getItem('BusMall Results');
+const parsedResults = JSON.parse(results);
+
 const votes = [];
 const names = [];
 
-results.forEach = (item) => {
+parsedResults.forEach(item => {
     votes.push(item.votes);
     names.push(item.id);
-};
-
-// document.getElementById('results-chart').textContent = JSON.stringify(results, 0, 2);
+});
 
 const ctx = document.getElementById('results-chart').getContext('2d');
 
@@ -18,7 +18,7 @@ new Chart(ctx, {
         datasets: [{
             label: 'Number of Votes',
             data: votes,
-            backgroundColor: ['lightblue', 'blue', 'yellow', 'green', 'purple', 'orange']
+            backgroundColor: ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet', 'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
         }]
     },
     options: {
