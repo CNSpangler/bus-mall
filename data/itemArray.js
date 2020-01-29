@@ -2,19 +2,19 @@ export const originalItemsArray = [
     {
         id: 'bag', 
         image: '../assets/bag.jpg', 
-        name: 'R2-D2'
+        name: 'Not the droid you\'re looking for.'
     },
 
     {
         id: 'banana',
         image: '../assets/banana.jpg',
-        name: 'Banana Hammer'
+        name: 'Banana De-Boner'
     },
 
     {
         id: 'bathroom',
         image: '../assets/bathroom.jpg',
-        name: 'iPad Definitely Doesn\'t Watch You Pee'
+        name: 'Steve Jobs Definitely Doesn\'t Watch You Pee'
     },
 
     {
@@ -30,7 +30,7 @@ export const originalItemsArray = [
     },
 
     {
-        id: 'bubblMeat No-Nosegum',
+        id: 'bubblegum',
         image: '../assets/bubblegum.jpg',
         name: 'Meat No-Nos'
     },
@@ -50,13 +50,13 @@ export const originalItemsArray = [
     {
         id: 'dog-duck',
         image: '../assets/dog-duck.jpg',
-        name: 'A Fowl Trick to Play On Your Dog'
+        name: 'A fowl trick to play on your dog'
     },
 
     {
         id: 'dragon',
         image: '../assets/dragon.jpg',
-        name: 'Just Like Mom Used to Make'
+        name: 'Just like mom used to make'
     },
 
     {
@@ -68,25 +68,25 @@ export const originalItemsArray = [
     {
         id: 'pet-sweep',
         image: '../assets/pet-sweep.jpg',
-        name: 'Your Dog Will Hate You Forever'
+        name: 'Your dog will hate you forever.'
     },
 
     {
         id: 'scissors',
         image: '../assets/scissors.jpg',
-        name: 'Want to Eat Less Pizza? Ask Me How!'
+        name: 'Want to eat less pizza? Why, though?'
     },
 
     {
         id: 'shark',
         image: '../assets/shark.jpg',
-        name: 'Shark-Nap-Do'
+        name: 'Shark-nap-do'
     },
 
     {
         id: 'sweep',
         image: '../assets/sweep.png',
-        name: 'Your Kid Will Hate You Forever'
+        name: 'Your kid will hate you forever'
     },
 
     {

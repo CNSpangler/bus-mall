@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>BusMall</title>
 </head>
@@ -12,24 +13,26 @@
 </header>
 <body>
     <h2>Which of these three items would you be most interested in purchasing?</h2>
-    <section id="user-choices">
-        <label id="item-one">
-            <img id="item-img-one" src=""><br>
-            <span id="item-description-one"></span>
-            <input type="radio" name="item-choice" value="option-one">
-        </label>
-        <label id="item-two">
-            <img id="item-img-two" src=""><br>
-            <span id="item-description-two"></span>
-            <input type="radio" name="item-choice" value="option-two">
-        </label>
-        <label id="item-three">
-            <img id="item-img-three" src=""><br>
-            <span id="item-description-three"></span>
-            <input type="radio" name="item-choice" value="option-three">
-        </label>
-    </section>
-    <button type="submit">Vote</button>
+    <section>    
+        <form id="user-choices">
+            <label id="item-one">
+                <img id="item-img-one" src=""><br>
+                <span id="item-description-one"></span>
+                <input type="radio" name="item-choice" id="option-one" />
+            </label>
+            <label id="item-two">
+                <img id="item-img-two" src=""><br>
+                <span id="item-description-two"></span>
+                <input type="radio" name="item-choice" id="option-two" />
+            </label>
+            <label id="item-three">
+                <img id="item-img-three" src=""><br>
+                <span id="item-description-three"></span>
+                <input type="radio" name="item-choice" id="option-three" />
+            </label><br>
+        </section>
+        <button id="vote-button" type="submit">Vote</button>
+    </form>
     <script type="module" src="app.js"></script>
 </body>
 </html>
