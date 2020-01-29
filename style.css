@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 header {
     margin-bottom: 25px;
     background-color: rgb(255, 208, 0);
@@ -16,6 +19,15 @@ h2 {
 
 label {
     max-width: 33%;
+    padding: 7px;
+}
+
+/* input {
+    visibility: hidden;
+} */
+
+label[type="radio"]:checked {
+    border: solid 10px rgb(255, 208, 0);
 }
 
 img {
