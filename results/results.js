@@ -16,7 +16,7 @@ new Chart(ctx, {
     data: {
         labels: names,
         datasets: [{
-            label: '# of Votes',
+            label: 'Number of Votes',
             data: votes,
             backgroundColor: ['lightblue', 'blue', 'yellow', 'green', 'purple', 'orange']
         }]
